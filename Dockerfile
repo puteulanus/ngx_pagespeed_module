@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-ENV NGX_VERS=latest
+ENV NGX_VER=latest
 VOLUME /mnt/modules
 
 RUN yum install -y gcc-c++ pcre-devel zlib-devel unzip wget libuuid-devel make sudo
